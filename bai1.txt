@@ -1,0 +1,21 @@
+import java.util.Scanner ;
+class TinhGiaiThua{
+    public static void main(String [] args){
+        int number2 , giaithua=1 , temp = 1 ;
+        Scanner scanner = new Scanner (System.in);
+        System.out.println("nh?p s? c?n d? tính giai th?a : ");
+        number2 = scanner.nextInt();
+        while (number2 <=0){
+           System.out.println("nh?p l?i s? d? tính giai th?a : ");
+            System.out.println("nh?p s? c?n d? tính giai th?a : ");
+             number2 = scanner.nextInt();
+        }
+        while (temp <=number2 ){
+            giaithua *= temp;
+            temp++
+            
+        }
+    System.out.println("giai c?a  th?a s?  "+number2+ " là "+ giaithua);
+    
+    }
+}

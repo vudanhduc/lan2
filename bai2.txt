@@ -1,0 +1,18 @@
+import java.util . Scanner ;
+ class tinhTongSoNguyen{
+     public static void main(String [] args ) {
+         int number , sum = 0;
+         Scanner scanner = new Scanner(System.in);
+         
+         while (sum<100){
+             
+         
+         
+         System.out.println("nhap so tu nhiên ");
+         number = scanner .nextInt();
+         sum=sum+number;
+         
+     }
+         System.out.println("tong cua cac so tu nhien vua nhap la : "+sum);
+     }
+ };
